@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio</title>
+    <link rel="stylesheet" href="css/servicios.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Nuestros Servicios</h1>
+    </header>
+   
+
+        <!-- Titulo -->
+    <div class="pregunta">
+    <h2>¿Qué le paso a tu telefono?</h2>
+    </div>
+
+
+        <!-- OPCIONES -->
+        <div class="opciones">
+            <h2>Selecciona los campos</h2>
+
+            <form action="procesar_encuesta.php" method="post">
+
+                <div class="problema">
+                    <select id="problema" name="problema">
+                        <option value="se rompio la pantalla">Se rompio la pantalla</option>
+                        <option value="se rompio la camara frontal">Se rompio la camara frontal</option>
+                        <option value="se rompio la camara trasera">Se rompio la camara trasera</option>
+                        <option value="no anda la antena wifi">No anda la antena wifi</option>
+                        <option value="otro problema">Otro problema</option>
+                    </select>
+                </div>
+
+                <div class="marca">
+                    <select id="problema1" name="problema1">
+                        <option value="se rompio la pantalla">Samsung</option>
+                        <option value="se rompio la camara frontal">Motorola</option>
+                        <option value="se rompio la camara trasera">Iphone</option>
+                        <option value="no anda la antena wifi">Xiaomi</option>
+                        <option value="otro problema">Otra</option>
+                    </select>
+                </div>
+            </form>
+             
+            <a href="">Cotiza</a>
+        </div>
+
+
+        <!-- Metodos y Pago-->
+
+        <div class="titulo-pago">
+            <h1>Opciones de Pago</h1>
+        </div>
+        <div class="pago">
+
+            <div class="metodo">
+                <i class="fa-solid fa-money-bills fa-xl"></i>
+                <h1>Efectivo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aliquam accusantium, explicabo alias dicta non repudiandae laborum dolores dolore sapiente?</p>
+
+            </div>
+            <div class="metodo">
+                <i class="fa-solid fa-money-bill-transfer fa-xl"></i>
+                <h1>Transferencia</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aliquam accusantium, explicabo alias dicta non repudiandae laborum dolores dolore sapiente?</p>  
+            </div>
+
+            <div class="metodo">
+                <i class="fa-regular fa-credit-card fa-xl"></i>
+                <h1>Debito</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aliquam accusantium, explicabo alias dicta non repudiandae laborum dolores dolore sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatem in hic cumque?</p>
+            </div>
+    
+        </div>
+
+       
+        <!-- Links JS -->
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c63695aaa6.js" crossorigin="anonymous"></script>
+</body>
+</html>

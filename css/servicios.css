@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+h2{
+    font-family: 'Inconsolata', monospace;; 
+}
+
+p{
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+a{
+    font-family: 'Inconsolata', monospace;
+}
+
+header{
+    padding: 60px 40px;
+    width: 100%;
+    height: 100px;
+    background-color: #5b78ea;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+body{
+    background-image: url(/img/img/Premium_Vector___Circuit_board_technology_background_with_hi-tech_digital_data_connection_system_and_computer_electronic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+/*Pregunta Main*/
+
+.pregunta{
+    margin: 80px 10px 20px 10px;
+    padding: 1.5em;
+}
+.pregunta h2 {
+    margin: 20px 0px 60px 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+/* Opciones */
+
+.opciones{
+    margin: 20px 10px 100px 10px;
+    padding: 1.5em;
+   
+}
+.opciones h2{
+    margin: 20px 0px 20px 20px;
+    font-size: 30px;
+    text-align: start;
+}
+
+.opciones form{
+    margin: 10px;
+
+}
+/* Seccion Problema */
+
+.opciones .problema select{
+    width: 600px;
+    font-size: 20px;
+    background-color: #5b78ea;
+    border: none;
+    padding: .8em 4em;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Seccion Marca */
+
+.opciones .marca select{
+    width: 600px;
+    font-size: 20px;
+    background-color: #5b78ea;
+    border: none;
+    padding: .8em 4em;
+    margin: 10px 0px 40px 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.opciones a{
+    margin: 20px 10px;
+    border: none;
+    padding: 1em 13.7em;
+    background-color: #808080;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.opciones a:hover{
+    background-color: #5b78ea;
+    color: rgb(255, 255, 255);
+    transition: 300ms;
+}
+
+
+/* Metodos y Pago*/
+
+
+.titulo-pago{
+    text-align: center;
+}
+
+.pago{
+    margin: 20px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: default;
+}
+
+.metodo{
+    background-color: #549ef83e;
+    backdrop-filter: blur(5px);
+    margin: 10px 20px 40px 10px;
+    border: 2px solid black;
+    transition: all 400ms ease;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.metodo:hover{
+    transform: translateY(-20px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+ .metodo i{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    color: #77ecee;
+}  
+
+.metodo h1{
+    text-align: center;
+}
+
+.metodo p{
+    margin: 10px 20px 0px 10px;
+    
+}
+
+/* MEDIA QUERIS */
+
+/* Header */
+
+@media (max-width: 748px ) {
+    header{
+        height: 200px;
+        font-size: 15px;
+    }
+}
+
+/* Opciones - Select's */
+
+@media (max-width: 748px ) {
+    .opciones .marca select,
+    .opciones .problema select{
+        width: 400px;
+        margin: 20px;
+
+    }
+
+    .opciones a{
+        padding: 1em 8.5em;
+        margin: 20px;
+
+    }
+}
+
+
+
+/* Pago y Metodos */
+
+@media (max-width: 950px) {
+    .pago{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+}
